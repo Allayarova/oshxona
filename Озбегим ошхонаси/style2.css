@@ -1,0 +1,379 @@
+@font-face {
+    font-family:baseliner ;
+    src: url(baseliner/BaselinerDemoRegular.ttf);
+}
+@font-face {
+    font-family: font-awesome;
+    src: url(font-awesome-4.7.0/fonts/fontawesome-webfont.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.sayt{
+    width: 1000px;
+    background: url("back.jpg") no-repeat center center /cover;
+    margin: auto;
+    height: 1380px;
+    padding: 10px 0px;
+
+
+
+}
+.navbar{
+    height: 80px;
+    background-color: #ec6e08;
+}
+.navbar p{
+    font-size: 25px;
+    margin: 0px 0 0 20px;
+    padding-top: 17px;
+    font-family: Lucida Bright;
+    color: white;
+    font-weight: 600;
+}
+.navbar font{
+    margin-left: 35px;
+
+}
+.navbar ul{
+    width: 100%;
+    margin: -50px 0 0 420px;
+    list-style: none;
+}
+.navbar ul li{
+    float: left;
+    margin: 10px 0 0 37px;
+}
+.navbar a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    text-decoration: underline 2px solid black;
+   
+    
+}
+.body{
+    height: 375px;
+    margin-top: 15px;
+    text-align: center;
+    opacity: 0.8;
+    background-color: #312720;
+  
+    
+    background: linear-gradient(to right, rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("p1.jpg") no-repeat center center / cover;
+}
+.body h1{
+    font-size: 55px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 150px;
+}
+.body p{
+    font-size: 35px;
+    color: white;
+    text-transform: uppercase;
+}
+.body label{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 18px;
+    text-align: center;
+}
+.body2{
+    height: 400px;
+    width: 900px;
+    margin: 15px 0 0 50px;
+    background-color: #c9c9c9;
+
+}
+.body1{
+    height: 50px;
+    border-bottom: 3px solid #ec6e08 ;
+   
+   
+  
+}
+.body1 p{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-left: 85px;
+    float: left;
+    margin-top: 10px;
+
+}
+.body1 label{
+    font-size: 22px;
+    color: gray;
+    margin-left: 165px;
+    float: left;
+    margin-top: 10px;
+   
+}
+.clear{
+    clear: both;
+}
+.card1{
+    background-color:#c9c9c9 ;
+    border-radius: 50%;
+    border: 2px dashed black;
+    width: 170px;
+    height: 170px;
+    position: relative;
+    top: 55px;
+    left: -60px;
+    float: left;
+    margin-left: 120px;
+}
+.minicard1{
+    background-color: #ec6e08;
+    border-radius: 50%;
+    width: 158px;
+    height: 158px;
+    position: relative;
+    top: 7px;
+    left: 7px;
+}
+.minicard1 img{
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    position: relative;
+    top: 8px;
+    left: 8px;
+}
+.minicard1 h1{
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 18px 0 0 40px;
+    
+}
+.minicard1 p{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px 0 0 -15px;
+}
+.minicard2{
+    background-color: #ec6e08;
+    border-radius: 50%;
+    width: 158px;
+    height: 158px;
+    position: relative;
+    top: 7px;
+    left: 7px;
+}
+.minicard2 img{
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    position: relative;
+    top: 8px;
+    left: 8px;
+}
+.minicard2 h1{
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 18px 0 0 18px;
+    
+}
+.minicard2 p{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px 0 0 -15px;
+}
+.minicard3{
+    background-color: #ec6e08;
+    border-radius: 50%;
+    width: 158px;
+    height: 158px;
+    position: relative;
+    top: 7px;
+    left: 7px;
+}
+.minicard3 img{
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    position: relative;
+    top: 8px;
+    left: 8px;
+}
+.minicard3 h1{
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 18px 0 0 20px;
+    
+}
+.minicard3 p{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px 0 0 -15px;
+}
+.body3{
+    height: 300px;
+    border-bottom: 3px solid #ec6e08 ;
+   
+   
+  
+}
+.registratsiya{
+    width: 220px;
+    height: 260px;
+    background: linear-gradient(to left, #432735, #62342d, #904423, #a84e19, #af511a, #c55910, #ec6804, #ff6e03) ;
+    position: relative;
+    top: 85px;
+}
+.registratsiya button{
+    border-radius: 15px;
+    background-color: #ec9605;
+    color: white;
+    width: 130px;
+    height: 30px;
+    padding: 0px 15px;
+    position: relative;
+    left: 25px;
+    top: 25px;
+    font-size: 12px;
+    border: none;
+    box-shadow: 0 2px 7px black;
+
+}
+.registratsiya p{
+    color: black;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left: -65px;
+    
+
+}
+.registratsiya input{
+    position: relative;
+    left: 12px;
+}
+.lorem{
+    text-align: center;
+    background: linear-gradient(to right, rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("im4.jpg") no-repeat center center / cover;
+    width: 650px;
+    height: 258px;
+    position: relative;
+    left: 250px;
+    top: -175px;
+
+}
+.lorem h1{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    top: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.lorem p{
+    color: white;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    position: relative;
+    top: 55px;
+    left: -35px;
+}
+.footer{
+    width: 1000px;
+    background-color: #04061b;
+    height: 200px;
+    position: relative;
+    top: -150px;
+    left: -50px;
+    border-top: 4px solid #595a6d;
+    border-bottom: 4px solid #595a6d;
+    
+
+}
+.first{
+    width: 500px;
+    height: 300px;
+  
+
+}
+.footer p{
+    font-size: 20px;
+    margin: 0px 0 0 20px;
+    padding-top: 17px;
+    font-family: Lucida Bright;
+    color: white;
+    font-weight: 600;
+    display: block;
+}
+.footer font{
+    margin-left: 35px;
+
+}
+.first h4{
+    font-size: 12px;
+    margin: 10px 0 0 15px;
+    text-align: center;
+
+    color: white;
+
+    
+   
+}
+.second{
+    width: 300px;
+    height: 300px;
+}
+.second h1{
+    font-size: 17px;
+    font-family: Calibri Light;
+    font-weight: 100;
+    color: white;
+    position: relative;
+    top: -350px;
+    left: 600px;
+}
+.fa{
+    position: relative;
+    top: -350px;
+    left: 350px;
+    color: white;
+}
+.second label{
+    color: white;
+    font-size: 9px;
+    position: relative;
+    top: -365px;
+    left: 450px;
+}
+.fa-home{
+    position: relative;
+    top:-340px;
+}
+
+
+.fa-map-marker{
+    position: relative    ;
+    top: -358px;
+    left:580px ;
+}
+.second p{
+    color: white;
+    font-size: 9px;
+    position: relative;
+    top: -365px;
+    left: 450px;
+
+}
+.fa-envelope{
+    position: relative;
+    left: 310px;
+    top: -358px;
+
+}
